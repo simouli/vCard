@@ -1,0 +1,49 @@
+body {
+    background: url(img/bg-barre.png) no-repeat top left,
+                url(img/bg-bottom.png) no-repeat right;
+    background-color: #201a1a;
+    color: #fff;
+    font-size: 18px;
+
+}
+
+.container {
+    width: 1200px; 
+    margin: auto;
+}
+
+.container--header {
+    width: 800px;
+    margin: 184px 0 0 400px;
+    border-bottom: 1px solid white;
+    
+}
+
+.container--text {
+    margin: 0 0 0 200px;
+}
+
+.p--title {
+    margin: -25px 0 0 80px;
+    
+    font-size: 72px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.p--text {
+    font-size: 18px; 
+    font-family: 'Raleway', sans-serif;
+    line-height: 2;
+    letter-spacing: 2px;
+    margin: 80px;
+    text-decoration: none;
+    list-style: none;
+    column-count: 2;
+}
+
+.text {
+    width: 800px;
+    text-align: left;
+    margin: 80px 0 0 400px;
+    border-left: 1px solid white;
+}
